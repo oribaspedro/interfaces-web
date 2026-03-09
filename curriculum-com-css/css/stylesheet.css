@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: rgb(252, 252, 240);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.contato {
+    color: rgb(0, 205, 0);
+    text-decoration: none;
+}
+
+#biografia {
+    text-align: justify;
+}
+
+#frase-coach {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
