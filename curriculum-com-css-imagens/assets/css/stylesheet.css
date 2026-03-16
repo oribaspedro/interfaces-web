@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/curriculum-com-css-imagens/assets/imgs/blue-polygonal-background-fade-4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.contato {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#biografia {
+    text-align: justify;
+}
+
+#frase-coach {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+
+#profile-pic {
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
