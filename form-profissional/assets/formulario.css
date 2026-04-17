@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .2);
+    padding: 40px;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    gap: 15px;
+    /* remova o justify-content: space-around */
+}
+
+.info-field {
+    display: flex;
+    align-items: center;        /* centraliza ícone e texto verticalmente */
+    border: 2px solid #dddddd;
+    border-radius: 15px;
+    padding: 12px 15px;         /* espaçamento interno */
+    width: calc(50% - 8px);     /* duas colunas com gap de 15px */
+    gap: 10px;                  /* espaço entre ícone e input */
+}
+
+.info-field img {
+    width: 24px;                /* tamanho fixo pequeno, não 20% */
+    height: 24px;
+    border-radius: 0;           /* ícones não precisam de border-radius */
+    flex-shrink: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 80%;                /* ocupa o restante do espaço disponível */
+    font-size: 14px;
+}
